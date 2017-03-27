@@ -1,6 +1,6 @@
-Forked from this repo: https://github.com/aendrew/nightmare-tutorial
+# Fed Rate Hike Odds Scraper #
 
-This is designed to scrape the current chances of a Federal Reserve rate hike from CME
+*This is designed to scrape the current chances of a Federal Reserve rate hike from CME*
 
 
 command to run in command prompt:
