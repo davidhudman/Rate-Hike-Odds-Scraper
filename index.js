@@ -14,27 +14,6 @@ const getAddress = async id => {
 	// Go to initial start page, navigate to Detail search
 	
 		try {
-			/*
-			selector = [ '#table0 tr:nth-child(2) td:nth-child(2)',
-				'#table0 tr:nth-child(3) td:nth-child(2)',
-				'#table0 tr:nth-child(4) td:nth-child(2)',
-				'#table0 tr:nth-child(5) td:nth-child(2)',
-				'#table0 tr:nth-child(6) td:nth-child(2)',
-				'#table0 tr:nth-child(7) td:nth-child(2)',
-				'#table0 tr:nth-child(8) td:nth-child(2)',
-				'#table0 tr:nth-child(9) td:nth-child(2)',
-				'#table0 tr:nth-child(10) td:nth-child(2)',
-				'#table1 tr:nth-child(2) td:nth-child(2)',
-				'#table1 tr:nth-child(3) td:nth-child(2)',
-				'#table1 tr:nth-child(4) td:nth-child(2)',
-				'#table1 tr:nth-child(5) td:nth-child(2)',
-				'#table1 tr:nth-child(6) td:nth-child(2)',
-				'#table1 tr:nth-child(7) td:nth-child(2)',
-				'#table1 tr:nth-child(8) td:nth-child(2)',
-				'#table1 tr:nth-child(9) td:nth-child(2)',
-				'#table1 tr:nth-child(10) td:nth-child(2)',
-			];
-			*/
 			var selector = [];
 			for (var i=0; i < 8; i++) {
 				selector[i] = [ '#table' + i + ' tr:nth-child(2) td:nth-child(2)',

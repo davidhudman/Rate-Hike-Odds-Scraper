@@ -2,6 +2,7 @@
 
 *This is designed to scrape the current chances of a Federal Reserve rate hike from CME http://cme-fedwatch-prod.aws.barchart.com/static/index.html*
 
+.
 
 command to run in command prompt:
 
