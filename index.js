@@ -9,7 +9,7 @@ const numbers = readFileSync('./tesco-title-numbers.csv',
   {encoding: 'utf8'}).trim().split('\n');
 const START = 'http://cme-fedwatch-prod.aws.barchart.com/static/index.html';			// 'https://eservices.landregistry.gov.uk/wps/portal/Property_Search';
 const getAddress = async id => {
-  console.log(`Now checking ${id}`);
+  console.log(`Now checking ` + START);
   const nightmare = new Nightmare({ show: false });
 	// Go to initial start page, navigate to Detail search
 	
